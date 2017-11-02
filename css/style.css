@@ -46,18 +46,35 @@ body {
 	color:#FFF;
 	overflow:hidden;
 }
-.header .navbar h2 {float:left}
+.header .navbar h2 {
+	float:left;
+	padding-left:150px;
+	margin:7px;
+}
 .header .navbar h2 span {color:#009933}
 .header .navbar ul {
 	list-style:none;
-	padding-left:0;
 	overflow:hidden;
 	float:right;
+	padding-left:40px;
+	padding-right:195px;
+	margin:3px;
 }
 .header .navbar ul li {
 	float:left;
 	padding:10px;
+	padding-left:30px
 }
+.header .navbar ul li a {
+	color:#FFF;
+	text-decoration:none;
+}
+.header .navbar ul li a:hover {
+	color:#30B576
+}
+
+
+
 /* end header */
 /* start about me */
 .about-me{
