@@ -1,13 +1,17 @@
 /* start main rulez */
 body {
-	background-color:#888
+	background-color:#888;
+	height:4000px;
 }
 .container {
 	width:1170px;
 	margin:auto;
 }
+.clearfix {clear:both;}
+
 /* end main rulez */
 /* start header */
+.header {padding-bottom:30px;}
 .header .slider {
 	background:#009933;
 	height:400px;
@@ -28,15 +32,76 @@ body {
 .header .navbar ul li {
 	float:left;
 	padding:10px;
-	
+}
+/* end header */
+/* start about me */
+.about-me{
+	overflow:hidden;
+}
+.about-me-border {
 	
 }
+.about-me .image {
+	float:left;
+	width:40%
+}
+.about-me .image img {
+	width:80%
+}
+.about-me .info {
+	float:left;
+	width:60%
+}
+.about-me .info h1 {
+	text-align:center;
+	padding-top:5px;
+	font-size:70px;
+	font-family:Impact;
+}
+.about-me .info p {
+	text-align:center;
+	font-size:40px
+}
+/* end about me */
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+/* start my projects */
+.my-projects {
+	padding-top:5px;
+	padding-bottom:5px;
+	overflow:hidden
+}
+.my-projects .projects {
+	text-align:center;
+}
+.my-projects .projects h1 {
+	font-family:Impact;
+	font-size:70px;
+}
+.my-projects .projects .hiddenssid {
+	font-family:Arial;
+	font-size:50px;
+}
+.my-projects .projects .hiddenssidp {
+	text-align:left;
+	font-family:Arial;
+	font-size:40px;
+	color:#b30000;
+}
+.my-projects .projects .reviewhiddenssid {
+	text-align:center;
+	font-family:Arial;
+	font-size:40px;
+	color:#b30000;
+}
+
+/* end my projects */
 
 
-
-
-
-
-
-
-/* end header */
