@@ -7,13 +7,39 @@ body {
 	margin:auto;
 }
 .clearfix {clear:both;}
-
+@font-face {
+	font-family:karafont;
+	src: url(../fonts/dakota.ttf);
+}
+@font-face {
+	font-family:decemberfont;
+	src: url(../fonts/december.ttf);
+}
+@font-face {
+	font-family:greatfont;
+	src: url(../fonts/great.ttf);
+}
 /* end main rulez */
 /* start header */
 .header {padding-bottom:30px;}
 .header .slider {
 	background:#009933;
 	height:400px;
+}
+.header .slider .intro{
+	padding-top:100px;
+	text-align:center;
+}
+.header .slider .intro h1 {
+	margin:0 auto;
+	font-size:70px;
+	font-family:karafont;
+	border-top:3px solid #FFF;
+	border-bottom:3px solid #FFF;
+}
+.header .slider .intro p {
+	font-size:40px;
+	font-family:decemberfont;
 }
 .header .navbar {
 	background-color:#252F31;
