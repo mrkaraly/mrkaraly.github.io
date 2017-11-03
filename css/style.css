@@ -1,6 +1,7 @@
 /* start main rulez */
 body {
 	background-color:#888;
+	height:4000px;
 }
 .container {
 	width:1170px;
@@ -37,9 +38,24 @@ body {
 	border-top:3px solid #FFF;
 	border-bottom:3px solid #FFF;
 }
+.header .slider .intro .pcontainer {
+	width:
+}
 .header .slider .intro p {
-	font-size:40px;
-	font-family:decemberfont;
+    font-size: 40px;
+    font-family: decemberfont;
+    animation: typing 3s steps(34);
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 20px auto;
+}
+@keyframes typing {
+  from {
+	  width:0;
+    }
+  to {
+	  width:100%;
+    }
 }
 .header .navbar {
 	background-color:#252F31;
@@ -145,5 +161,3 @@ hr {
 }
 
 /* end my projects */
-
-
