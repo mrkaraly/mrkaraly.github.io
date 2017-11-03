@@ -142,21 +142,143 @@ hr {
 	font-family:Impact;
 	font-size:70px;
 }
-.my-projects .projects .hiddenssid {
+/* Hiddenssid start */
+.my-projects .projects .hidden .hiddenssid {
 	font-family:Arial;
 	font-size:50px;
+	color:#FFF;
+	text-decoration:none;
 }
-.my-projects .projects .hiddenssidp {
+.my-projects .projects .hidden .hiddenssid:hover {
+	color:#30B576
+}
+.my-projects .projects .hidden .hiddenssidp {
 	text-align:left;
 	font-family:Arial;
 	font-size:40px;
 	color:#b30000;
 }
-.my-projects .projects .reviewhiddenssid {
+.my-projects .projects .hidden .reviewhiddenssid {
 	text-align:center;
+	font-family:Arial;
+	font-size:40px;
+	color:#FFF;
+	text-decoration:none;
+}
+.my-projects .projects .hidden .reviewhiddenssid:hover {
+	color:#30B576
+}
+/* Hiddenssid end */
+/* kali linux cleaner start */
+.my-projects .projects .kali .kaliclean {
+	font-family:Arial;
+	font-size:50px;
+	color:#FFF;
+	text-decoration:none;
+}
+.my-projects .projects .kali .kaliclean:hover {
+	color:#30B576
+}
+.my-projects .projects .kali .kalicleanp {
+	text-align:left;
 	font-family:Arial;
 	font-size:40px;
 	color:#b30000;
 }
-
+.my-projects .projects .kali .reviewkaliclean {
+	text-align:center;
+	font-family:Arial;
+	font-size:40px;
+	color:#FFF;
+	text-decoration:none;
+}
+.my-projects .projects .kali .reviewkaliclean:hover {
+	color:#30B576
+}
+/* kali linux cleaner end */
+/* Manga Downloader start */
+.my-projects .projects .manga .manga-download {
+	font-family:Arial;
+	font-size:50px;
+	color:#FFF;
+	text-decoration:none;
+}
+.my-projects .projects .manga .manga-download:hover {
+	color:#30B576
+}
+.my-projects .projects .manga .manga-downloadp {
+	text-align:left;
+	font-family:Arial;
+	font-size:40px;
+	color:#b30000;
+}
+.my-projects .projects .manga .reviewmanga-download {
+	text-align:center;
+	font-family:Arial;
+	font-size:40px;
+	color:#FFF;
+	text-decoration:none;
+}
+.my-projects .projects .manga .reviewmanga-download:hover {
+	color:#30B576
+}
+/* Manga Downloader stop */
+/* fix sound start */
+.my-projects .projects .kalifix .kalifixsound {
+	font-family:Arial;
+	font-size:50px;
+	color:#FFF;
+	text-decoration:none;
+}
+.my-projects .projects .kalifix .kalifixsound:hover {
+	color:#30B576
+}
+.my-projects .projects .kalifix .kalifixsoundp {
+	text-align:left;
+	font-family:Arial;
+	font-size:40px;
+	color:#b30000;
+}
+.my-projects .projects .kalifix .reviewkalifixsound {
+	text-align:center;
+	font-family:Arial;
+	font-size:40px;
+	color:#FFF;
+	text-decoration:none;
+}
+.my-projects .projects .kalifix .reviewkalifixsound:hover {
+	color:#30B576
+}
+/* fix sound stop */
 /* end my projects */
+/* footer start */
+.footer {
+	background-color:#252F31;
+	color:#888;
+	padding-top:10px;
+	text-align:center;
+	overflow:hidden
+}
+.footer .footerkara {
+	font-family:decemberfont;
+	font-size:15px;
+	color:#000;
+}
+.footer ul {
+	list-style:none;
+	padding-left:0;
+	margin:10px 0 0;
+}
+.footer ul li {
+	display:inline-block;
+	padding-right:5px;
+	padding-left:5px;
+}
+.footer ul li a {
+	color:#FFF;
+	text-decoration:none;
+}
+.footer ul li a:hover {
+	color:#30B576;
+}
+/* footer end */
