@@ -6,110 +6,114 @@
 		<link rel="stylesheet" href="css/normlize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="icon" href="images/icon.jpg">
+		<script src="js/jquery-3.2.1.min.js"></script>
+        	<script src="js/bootstrap.min.js"></script>
 		<title>Mr Kara</title>
 	</head>
 	<body>
-	<!-- start header -->	
-		<div class="header">
-			<div class="slider">
-				<div class="container">
-					<div class="intro">
-						<h1>Mr Kara Ly</h1>
-						<p>Hacking is a Life Style Thinking .</p>
+	<div class="container-fluid">
+		<!-- start header -->	
+			<div class="header">
+				<div class="slider">
+					<div class="container">
+						<div class="intro">
+							<h1>Mr Kara Ly</h1>
+							<p>Hacking is a Life Style Thinking .</p>
+						</div>
+					</div>
+				</div>
+				<div class="navbar">
+					<div class="container">
+						<h2>Ka<span>ra</span></h2>
+						<ul>
+							<li class="active"><a href="https://mrkaraly.github.io">Home</a></li>
+							<li><a href="#contact">Contact Me</a></li>
+							<li><a href="#projectid">My Repositories</a></li>
+
+						</ul>
+
 					</div>
 				</div>
 			</div>
-			<div class="navbar">
+		<!-- end header -->
+		<!-- start about me -->
+			<div class="about-me">
 				<div class="container">
-					<h2>Ka<span>ra</span></h2>
-					<ul>
-						<li class="active"><a href="https://mrkaraly.github.io">Home</a></li>
-						<li><a href="#contact">Contact Me</a></li>
-						<li><a href="#projectid">My Repositories</a></li>
-					
-					</ul>
-				
+					<div class="image">
+						<img src="images/kara.jpg" alt="kara">
+					</div>
+					<div class="info">
+						<h1>About Me</h1>
+						<p>I'm <a target="_blank" href="https://www.facebook.com/apti.vladimir.3">Kara</a> from Libya , Programmer & Haxor , I love <a target="_blank" href="http://www.starsetonline.com/">#Starset</a> music & <a target="_blank" href="https://www.defcon.org/">#DefCon</a> , I hate that thing called "Sleep" it's useless ☺ So that's all ☠</p>
+					</div>
 				</div>
+
+
 			</div>
-		</div>
-	<!-- end header -->
-	<!-- start about me -->
-		<div class="about-me">
+
+		<!-- end about me -->
+		<hr>
+		<!-- start my projects --> 
+		<div class="my-projects">
 			<div class="container">
-				<div class="image">
-					<img src="images/kara.jpg" alt="kara">
-				</div>
-				<div class="info">
-					<h1>About Me</h1>
-					<p>I'm <a target="_blank" href="https://www.facebook.com/apti.vladimir.3">Kara</a> from Libya , Programmer & Haxor , I love <a target="_blank" href="http://www.starsetonline.com/">#Starset</a> music & <a target="_blank" href="https://www.defcon.org/">#DefCon</a> , I hate that thing called "Sleep" it's useless ☺ So that's all ☠</p>
+				<div class="projects" id="projectid">
+					<h1>My Repositories</h1>
+					<hr>
+					<hr>
+					<hr>
+						<div class="hidden">
+							<a class="hiddenssid" target="_blank" href="https://github.com/mrkaraly/HiddenSSIDReveal">Hidden SSID Reveal</a>
+							<p class="hiddenssidp">Hidden SSID Reveal : A little python script to uncovering hidden SSIDs.</p>
+							<p class="hiddenssidp">If you want to discover a hidden SSID, you should analyze the probe requests vs probe response packets. Because, the SSID value is being sent in probe packets (Response and Request) for communication. So i've made this script to discover and uncover the hidden SSIDs (Networks) , i hope it will work perfectly.</p>
+							<a class="reviewhiddenssid" target="_blank" href="https://github.com/mrkaraly/HiddenSSIDReveal">Review The Script</a>
+						</div>
+					<hr>
+					<hr>
+						<div class="kali">
+							<a class="kaliclean" target="_blank" href="https://github.com/mrkaraly/Kali-Linux-Cleaner">Kali Linux Cleaner</a>
+							<p class="kalicleanp">Kali Linux Cleaner : Little cleaner script for Kali linux.</p>
+							<p class="kalicleanp">Little python script fo kali linux to clean {Apt cache - Old config files - Old kernels - Emptying every trashes}.</p>
+							<a class="reviewkaliclean" target="_blank" href="https://github.com/mrkaraly/Kali-Linux-Cleaner">Review The Script</a>
+						</div>
+					<hr>
+					<hr>
+						<div class="manga">
+							<a class="manga-download" target="_blank" href="https://github.com/mrkaraly/Manga-Download">Manga Downloader</a>
+							<p class="manga-downloadp">Manga-Download : Python script for downloading manga.</p>
+							<p class="manga-downloadp">Python script for downloading Manga from Mangareader website, It gets all the picture of the Manga and store it in a folder named with the Manga that you typed before.</p>
+							<a class="reviewmanga-download" target="_blank" href="https://github.com/mrkaraly/Manga-Download">Review The Script</a>
+						</div>
+					<hr>
+					<hr>
+						<div class="kalifix">
+							<a class="kalifixsound" target="_blank" href="https://github.com/mrkaraly/FixPulseAudioSoundProblemKali">Fix Pulse Audio Sound Problem Kali</a>
+							<p class="kalifixsoundp">Fix Pulse Audio Sound Problem Kali : Simple Bash script to fix the audio problem in Kali Linux 2016.2.</p>
+							<p class="kalifixsoundp">Bash script to fix sound problem in kali linx 2016.2 , It restarts the pulseaudio services and clean the cache of it .</p>
+							<a class="reviewkalifixsound" target="_blank" href="https://github.com/mrkaraly/FixPulseAudioSoundProblemKali">Review The Script</a>
+						</div>
 				</div>
 			</div>
-		
-		
 		</div>
-	
-	<!-- end about me -->
-	<hr>
-	<!-- start my projects --> 
-	<div class="my-projects">
-		<div class="container">
-			<div class="projects" id="projectid">
-				<h1>My Repositories</h1>
-				<hr>
-				<hr>
-				<hr>
-					<div class="hidden">
-						<a class="hiddenssid" target="_blank" href="https://github.com/mrkaraly/HiddenSSIDReveal">Hidden SSID Reveal</a>
-						<p class="hiddenssidp">Hidden SSID Reveal : A little python script to uncovering hidden SSIDs.</p>
-						<p class="hiddenssidp">If you want to discover a hidden SSID, you should analyze the probe requests vs probe response packets. Because, the SSID value is being sent in probe packets (Response and Request) for communication. So i've made this script to discover and uncover the hidden SSIDs (Networks) , i hope it will work perfectly.</p>
-						<a class="reviewhiddenssid" target="_blank" href="https://github.com/mrkaraly/HiddenSSIDReveal">Review The Script</a>
-					</div>
-				<hr>
-				<hr>
-					<div class="kali">
-						<a class="kaliclean" target="_blank" href="https://github.com/mrkaraly/Kali-Linux-Cleaner">Kali Linux Cleaner</a>
-						<p class="kalicleanp">Kali Linux Cleaner : Little cleaner script for Kali linux.</p>
-						<p class="kalicleanp">Little python script fo kali linux to clean {Apt cache - Old config files - Old kernels - Emptying every trashes}.</p>
-						<a class="reviewkaliclean" target="_blank" href="https://github.com/mrkaraly/Kali-Linux-Cleaner">Review The Script</a>
-					</div>
-				<hr>
-				<hr>
-					<div class="manga">
-						<a class="manga-download" target="_blank" href="https://github.com/mrkaraly/Manga-Download">Manga Downloader</a>
-						<p class="manga-downloadp">Manga-Download : Python script for downloading manga.</p>
-						<p class="manga-downloadp">Python script for downloading Manga from Mangareader website, It gets all the picture of the Manga and store it in a folder named with the Manga that you typed before.</p>
-						<a class="reviewmanga-download" target="_blank" href="https://github.com/mrkaraly/Manga-Download">Review The Script</a>
-					</div>
-				<hr>
-				<hr>
-					<div class="kalifix">
-						<a class="kalifixsound" target="_blank" href="https://github.com/mrkaraly/FixPulseAudioSoundProblemKali">Fix Pulse Audio Sound Problem Kali</a>
-						<p class="kalifixsoundp">Fix Pulse Audio Sound Problem Kali : Simple Bash script to fix the audio problem in Kali Linux 2016.2.</p>
-						<p class="kalifixsoundp">Bash script to fix sound problem in kali linx 2016.2 , It restarts the pulseaudio services and clean the cache of it .</p>
-						<a class="reviewkalifixsound" target="_blank" href="https://github.com/mrkaraly/FixPulseAudioSoundProblemKali">Review The Script</a>
-					</div>
+		<hr>
+		<hr>
+		<hr>
+		<!-- end my projects -->
+		<!-- start footer -->
+		<div class="footer">
+			<div class="container">
+				<span>Copyright &copy; <span class="footerkara">Kara</span></span>
+				<ul id="contact">
+					<li><a target="_blank" href="https://www.facebook.com/hackerlibya100/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://twitter.com/hackeralnofalia"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://github.com/mrkaraly"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/mr-kara-56327a136/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://mrkaraly.tumblr.com"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://www.youtube.com/hackeralnofalia"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/hacker.alnofalia/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
 			</div>
 		</div>
+		<!-- end footer -->
 	</div>
-	<hr>
-	<hr>
-	<hr>
-	<!-- end my projects -->
-	<!-- start footer -->
-	<div class="footer">
-		<div class="container">
-			<span>Copyright &copy; <span class="footerkara">Kara</span></span>
-			<ul id="contact">
-				<li><a target="_blank" href="https://www.facebook.com/hackerlibya100/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a target="_blank" href="https://twitter.com/hackeralnofalia"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a target="_blank" href="https://github.com/mrkaraly"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-				<li><a target="_blank" href="https://www.linkedin.com/in/mr-kara-56327a136/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-				<li><a target="_blank" href="https://mrkaraly.tumblr.com"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
-				<li><a target="_blank" href="https://www.youtube.com/hackeralnofalia"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-				<li><a target="_blank" href="https://www.instagram.com/hacker.alnofalia/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
-	</div>
-	<!-- end footer -->
 	</body>
 </html>
