@@ -2,10 +2,6 @@
 body {
 	background-color:#888;
 }
-.container {
-	width:1170px;
-	margin:auto;
-}
 .clearfix {clear:both;}
 @font-face {
 	font-family:karafont;
