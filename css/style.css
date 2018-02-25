@@ -138,6 +138,33 @@ hr {
 	font-family:Impact;
 	font-size:70px;
 }
+/* YNN start */
+.my-projects .projects .YNN .YNN1 {
+	font-family:Arial;
+	font-size:50px;
+	color:#FFF;
+	text-decoration:none;
+}
+.my-projects .projects .YNN .YNN1:hover {
+	color:#30B576
+}
+.my-projects .projects .YNN .YNN2 {
+	text-align:left;
+	font-family:Arial;
+	font-size:40px;
+	color:#b30000;
+}
+.my-projects .projects .YNN .reviewYNN {
+	text-align:center;
+	font-family:Arial;
+	font-size:40px;
+	color:#FFF;
+	text-decoration:none;
+}
+.my-projects .projects .YNN .reviewYNN:hover {
+	color:#30B576
+}
+/* YNN end */
 /* Hiddenssid start */
 .my-projects .projects .hidden .hiddenssid {
 	font-family:Arial;
