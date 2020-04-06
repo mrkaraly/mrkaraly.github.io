@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> <!-- تحديد الـ Conding الخاص بالصفحة -->
+        <title>COVID-19 but with bootstrap</title> <!-- تحديد العنوان الخاص بالصفحة -->
+        <meta name="description" content="A platform for COVID-19 life style"> <!-- تحديد الوصف الخاص بالصفحة -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"> <!-- استدعاء ملف التنسيق الخاص -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- استدعاء المكتبة الخاصة بإطار عمل بوتستراب -->
+        <link rel="stylesheet" href="css/normalize.css"> <!-- إستدعاء المكتبة الخاصة بإطار عمل نورملايز -->
+    </head>
+    <body>
+    <!-- 
+        في هذه الصفحة سيتم إستخدام جميع الخواص الموجودة في إطار عمل البوتستراب وسيتم شرح التفاصيل الخاصة بها
+        أيضا سيتم إستخدام مكتبة الـ FontAwesome الخاصة بالأيقونات
+     -->
+        <!-- ستكون البداية في ملف الـ CSS يرجى الإنتقال إلى ملف الـ CSS الموجود تحت إسم style.css -->
+        <!-- Navbar  -->
+        <header style="height: 100vh;">
+            <div Class="firsthead"> 
+                COVID-19 中文
+            </div>
+            <div class="middlehead">
+                <h1 class="thetitle">您好..本网站专门提供有关电晕的新闻.</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">What's This?</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        What's in here?
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Bootstrap</a>
+                        <a class="dropdown-item" href="#">COVID Map</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Creators of this</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Tutorials</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <a class="btn btn-outline-success my-2 my-sm-0" href="howtonav.html">How To?</a>
+                  </form>
+                </div>
+              </nav>
+        </header>
+        <div class="first-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="card mb-3 text-white" style="max-width: 540px;background-color: black;">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DonningCDC2020.jpg/330px-DonningCDC2020.jpg" class="card-img" alt="COVID-19" height="100%">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">COVID-19</h5>
+                                  <p class="card-text">Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease was first identified in December 2019 in Wuhan, the capital of China's Hubei province, and has since spread globally, resulting in the ongoing 2019–20 coronavirus pandemic. Common symptoms include fever, cough, and shortness of breath. Other symptoms may include muscle pain, diarrhea, sore throat, loss of smell, and abdominal pain.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="js/jquery.js"></script> <!-- إستدعاء مكتبه jQuery الخاصة بالجافاسكربت لتدعيم إطار البوتستراب  -->
+    <script src="js/bootstrap.min.js"></script> <!-- إستدعاء ملف الـ bootstrap الخاص بالجافاسكربت -->   
+    </body>
+</html>
